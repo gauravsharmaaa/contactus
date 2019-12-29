@@ -1,0 +1,19 @@
+{
+    "name": "sharmag/contactus",
+    "description": "Contact us page for laravel 5 app with database support",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "gauravsharmag",
+            "email": "gauravshivamrules@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {  
+        "psr-4": {
+            "Sharmag\\Contactus\\": "src/" 
+        }
+    }
+}
