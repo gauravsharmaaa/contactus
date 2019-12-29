@@ -10,6 +10,10 @@ composer require sharmag/contactus
 
 after processing finishes run
 
+add the following entry to the provider array in config/app.php
+
+Sharmag\Contactus\ContactusServiceProvider::class, 
+
 php artisan vendor:publish
 
 and then check the page at https://yourserver.com/contact-us
