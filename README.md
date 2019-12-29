@@ -8,12 +8,12 @@ Once you have a laravel 5 app installed on your server and connected to database
 
 composer require sharmag/contactus
 
-after processing finishes run
+after processing finishes
 
 add the following entry to the provider array in config/app.php
 
 Sharmag\Contactus\ContactusServiceProvider::class, 
 
-php artisan vendor:publish
+and run php artisan vendor:publish
 
 and then check the page at https://yourserver.com/contact-us
