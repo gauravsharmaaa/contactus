@@ -6,7 +6,7 @@ This package lets fresh laravel installation to have a contact us page available
 # Installation
 Once you have a laravel 5 app installed on your server and connected to database,you are good to go,just grab the package with 
 
-composer require sharmag/contactus
+composer require sharmag/contactus:dev-master
 
 after processing finishes
 
